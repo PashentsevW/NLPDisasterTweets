@@ -29,6 +29,7 @@ RUN sudo apt-get update \
         git \
         wget \
         unzip \
+        build-essential \
         ca-certificates \
     && sudo rm -rf /var/lib/apt/lists/* \
     && git config --global user.name "${GIT_USERNAME}" \

@@ -131,5 +131,6 @@ dmypy.json
 # VSCode files
 .devcontainer
 
-# Competition data files
+# Competition files
+artifacts
 data
